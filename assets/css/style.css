@@ -141,6 +141,7 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
+  left: 12vw;
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
@@ -220,8 +221,8 @@ input[type=submit] {
 
 @media screen and (max-width:980px) {
   .main-section {
-    width: 70%;
-    margin-left: 50px;
+    width: 90%;
+    margin-left: 5%;
   }
 
  nav {
@@ -232,6 +233,9 @@ input[type=submit] {
    margin-left: 42px;
  }
 
+ ul {
+   padding-left: 0px;
+ }
 }
 
 @media screen and (max-width:768px) {
@@ -246,6 +250,14 @@ nav {
 
 #logo {
   margin-left: 50px;
+}
+
+.work {
+  left: 3vw;
+}
+
+ul {
+  padding-left: 0px;
 }
 
 }
@@ -270,6 +282,11 @@ nav {
     text-align: center;
   }
 
+  .work {
+    left: 17vw;
+  }
 
-
+  ul{
+    padding-left: 0px;
+  }
 }
